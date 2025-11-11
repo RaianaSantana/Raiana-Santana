@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+    :root {
+            --cor-principal: #f86c6c;
+            --cor-secundaria: #e45252;
+            --cor-destaque: #ad3e3e;
+            --cor-de-fundo: #f1eaea;
+            --cor-das-letras: #ffffff;
+        }
+
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.5;
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        header {
+            background-color: var(--cor-principal);
+            margin-bottom: 35px;
+            padding: 5px;
+            position: sticky;
+            top: 0;
+            
+             
+           
+
+
+        }
+        body {
+            background-color: var(--cor-de-fundo);
+          
+
+        }
+
+        main {
+            display: grid;
+          
+        
+        
+
+        }
+
+        section {
+            background-color: var(--cor-das-letras);
+            border-radius: 10px;
+            margin: auto;
+            margin-bottom: 15px;
+            padding: 10px;
+            width: 93%;
+                
+
+        }
+
+        h1 {
+            color: var(--cor-principal);
+            margin-left: 25px;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+             margin-left: 20px;
+
+        }
+
+        .skill  {   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+         
+
+        }
+
+
+        .skill > p {
+            font-weight: bold;
+            display: flex;
+            margin: auto;
+        
+          
+
+        }
+
+        p {
+            margin-left: 20px;
+         
+         
+           
+        }
+
+      #perfil {
+        margin: auto;
+      }
+
+      #perfil > p {
+          width: 90%;
+          
+        }
+
+
+        ul > li > a {
+             text-decoration: none;
+             color: var(--cor-das-letras);
+              margin: 15px;
+        }
+
+
+          ul {
+            display: flex;
+            justify-content: flex-end;
+            gap: 25px;
+            list-style: none;
+             
+
+         
+          
+           
+        }
+
+        #html {
+            width: 55%;
+            height: 10px;
+
+        }
+
+        #css {
+            width: 45%;
+            height: 10px;
+
+        }
+
+        #adaptabilidade {
+            width: 57%;
+            height: 10px;
+
+        }
+
+        #t-equipe {
+            width: 95%;
+            height: 10px;
+
+        }
+
+         #lideranca {
+            width: 25%;
+            height: 10px;
+
+        }
+
+
+
+        #comunicacao {
+            width: 35%;
+            height: 10px;
+
+        }
+
+        #icones {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          display: flex;
+          justify-content: center;
+          gap: 15px;
+         
+          
+           
+        }
+
+        .skill > p {
+            margin: auto;
+            text-align: center;
+            font-size: 0.9em;
+            white-space: nowrap;
+            margin-left: 5%;
+        }
+
+        .formacao > .ano {
+            font-weight: bold;
+            font-size: 0.8em;
+
+        }
+
+        .formacao {
+            background-color: var(--cor-de-fundo);
+            border-radius: 10px;
+            border-left: 5px solid var(--cor-principal);
+            margin-bottom: 20px;
+        }
+
+        .projeto {
+            margin: auto;
+            background-color: var(--cor-de-fundo);
+            border-radius: 10px;
+            border-left: 5px solid var(--cor-principal);
+            margin-bottom: 20px;
+            padding: 10px;
+
+        }
+
+        .projeto > a > img {
+            outline: 3px solid var(--cor-principal);
+            border: 3px solid var(--cor-destaque);
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+            width: 90%;
+            height: 100%;
+            
+        }
+
+        .porcent {
+            background-color: var(--cor-principal);
+            color: var(--cor-das-letras);
+            border-radius: 10px;
+            margin: 10px;
+          
+          
+        }
+
+        .links {
+            color: var(--cor-secundaria);
+            font-size: 1.5em;
+            text-decoration: none;
+            
+          
+        }
+
+        footer {
+            background-color: var(--cor-principal);
+            color: var(--cor-das-letras);
+            padding: 10px;
+            text-align: center;
+        }
+
+
+         #img-perfil {
+            width: 180px;
+            margin: auto;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid var(--cor-de-fundo);
+            outline: 6px solid var(--cor-principal);
+            display: block;
+            margin: auto;
+          
+           
+        }

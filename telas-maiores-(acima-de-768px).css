@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+    :root {
+            --cor-principal: #f86c6c;
+            --cor-secundaria: #e45252;
+            --cor-destaque: #ad3e3e;
+            --cor-de-fundo: #f1eaea;
+            --cor-das-letras: #ffffff;
+        }
+
+
+  @media  screen and (min-width: 768px) {
+
+        #projetos {
+           
+        }
+    
+        .projeto {
+            margin: auto;
+            background-color: var(--cor-de-fundo);
+            border-radius: 10px;
+            border-left: 5px solid var(--cor-principal);
+            margin-bottom: 20px;
+            width: 80%;
+           
+
+        }
+
+          .projeto > p {
+           margin-bottom: 10px;
+           
+
+        }
+
+          .projeto > a > img {
+            outline: 5px solid var(--cor-principal);
+            border: 5px solid var(--cor-destaque);
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+            width: 68%;
+            height: 100%;
+            
+        }
+       
+
+
+        #perfil {    
+            margin-top: 33px;
+            grid-column: 1/2;
+            grid-row: 1/3;
+           
+         
+          
+            
+        
+        }
+
+          #apresentacao {    
+            grid-column: 2/3;
+            grid-row: 1/2;
+        
+        }
+
+        
+        
+
+        
+          #skills {
+            grid-column: 3/5;
+            grid-row: 2/1;
+           
+            
+        
+        }
+
+        
+
+        
+        #formacao {
+            margin-top: 50px;
+            grid-column: 3/5;
+            grid-row: 2/4;
+        }
+
+        #projetos {
+            grid-column: 2/3;
+            grid-row: 2/5;
+           
+        }
+
+
+    
+
+        .skill > p {
+            font-size: 0.9em;
+            white-space: nowrap;
+            margin-left: 5%;
+           
+           
+          
+        }
+
+          
+
+        
+
+        main {
+            grid-template-columns: 240px 500px auto auto;
+            grid-template-rows: 200px 280px;
+            padding: 20px;     
+            gap: 20px;
+          
+           
+        }
+
+        #p-1 {  
+            position: fixed;
+            top: 8%;
+       
+        }
+
+         #perfil > p {
+            width: 200px;
+           
+          
+            
+        }
+
+         #perfil > h1 {    
+            white-space: nowrap;
+          
+           
+            
+        }
+    
+      
+        }
